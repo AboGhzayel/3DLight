@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+ <key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>DLightHeader</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Settings</string>
+	       </dict>
+<dict>		
+<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>Root</string>
+			<key>key</key>
+			<string>k1</string>
+			<key>label</key>
+			<string>Light Material</string>
+		</dict>
+<dict>		
+<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>Root</string>
+			<key>key</key>
+			<string>k2</string>
+			<key>label</key>
+			<string>White Material</string>
+		</dict>
+<dict>		
+<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>Root</string>
+			<key>key</key>
+			<string>k3</string>
+			<key>label</key>
+			<string>Super White</string>
+		</dict>
+		<dict>
+      <key>action</key>
+      <string>Twitter</string>
+      <key>cell</key>
+      <string>PSButtonCell</string>
+      <key>default</key>
+      <false/>
+      <key>icon</key>
+      <string>Twitter@2x.png</string>
+      <key>label</key>
+      <string>Follow me on twitter</string>
+</dict>
+<dict>
+<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Respring is required</string>
+</dict>
+		<dict>
+	<key>cell</key>
+	<string>PSButtonCell</string>
+	<key>label</key>
+	<string>Respring</string>
+	<key>action</key>
+	<string>apply</string>
+</dict>
+<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>© 2017 AboGhzayel </string>
+</dict>
+	</array>
+	<key>title</key>
+	<string>3DLight</string>
+</dict>
+</plist>

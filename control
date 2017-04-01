@@ -1,0 +1,9 @@
+Package: com.aboghzayel.3DLight.com
+Name: 3DLight
+Depends: mobilesubstrate
+Version: 1.4
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mohammad Ghzayel
+Author: Mohammad Ghzayel
+Section: Tweaks
