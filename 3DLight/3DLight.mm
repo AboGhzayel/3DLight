@@ -49,7 +49,7 @@
 
 - (id)specifiers {
 	if(_specifiers == nil) {
-		_specifiers = [[self loadSpecifiersFromPlistName:@"DLight" target:self] retain];
+		_specifiers = [[self loadSpecifiersFromPlistName:@"Root" target:self] retain];
 	}
 	return _specifiers;
 }
